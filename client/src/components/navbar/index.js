@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 
 export default function Navigation() {
     return (
-        <Navbar>
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
             <Nav className="mr-auto">
                 <Nav.Link href="#message">About</Nav.Link>
                 <Nav.Link href="#stylist">Stylist</Nav.Link>
