@@ -1,13 +1,27 @@
 #services{
     margin: 20px;
     width:700px;
-    background-color:rgb(127 254 212);
+    background-color:rgba(127, 254, 212, 0.24);
     padding:15px;
-    border-radius: 5px;  
+    border-radius: 5px; 
+    color:rgb(157, 255, 222);
+    font-size:22px; 
 }
 .title{
+    font-family: 'Slabo 27px', serif;
+    font-size:38px;
+    font-weight: 550;
     text-align: center;
-    border-bottom: 2px solid black !important;
+    border-bottom: 2px solid rgb(157, 255, 222) !important;
     padding-bottom: 10px;
     margin-bottom: 15px;
 }
+
+ul li::before {
+    content: "\2022";
+    color: rgb(30, 77, 61);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
