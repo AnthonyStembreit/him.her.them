@@ -1,5 +1,6 @@
 import React from 'react'
 import Navigation from '../components/navbar'
+import Logo from '../components/logo'
 import About from '../components/about'
 import StylistCard from '../components/stylistCard'
 import Location from '../components/location'
@@ -10,7 +11,8 @@ export default function Home() {
     return (
         <div id="home">
             <Navigation />
-            <About />
+            <Logo />
+            <About/>
             <div id="stylist">
                 <StylistCard />
             </div>
