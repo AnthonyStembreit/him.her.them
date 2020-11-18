@@ -2,15 +2,13 @@
 .map-h2 {
   text-transform: uppercase;
   font-size: 1rem;
-  padding: 20px;
-  padding-left: 10px;
   text-align: center;
 }
 
 .google-map {
   width: 40%;
   height: 50vh;
-  margin:40px;
+  padding:40px;
 }
 
 .pin {
